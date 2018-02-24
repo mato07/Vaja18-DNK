@@ -1,3 +1,52 @@
-body {
-    background-color: red;
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("DNK.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+
+.center-input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.center-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7%;
+}
+
+span {
+    color: red;
 }

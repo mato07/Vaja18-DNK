@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block vsebina %}
+
+<h1 class="center-text">Pozdravljeni v analizatorju DNK!</h1>
+<form method="POST" action="/result">
+    <label for="input-DNK" class="center-input">Vstavi DNK zaporedje: </label>
+    <textarea rows="6" cols="50" type="text" id="input-DNK" name="DNKosebe" class="center-image"></textarea>
+    <br>
+    <button type="submit" class="center-button">Analiziraj</button>
+</form>
+
+{% endblock vsebina %}
+
+
